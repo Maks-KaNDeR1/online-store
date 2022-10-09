@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/online-store/static/css/main.f60f018d.css",
+    "main.js": "/online-store/static/js/main.97ba57f6.js",
+    "static/js/787.a92fe09e.chunk.js": "/online-store/static/js/787.a92fe09e.chunk.js",
+    "static/media/header2.jpg": "/online-store/static/media/header2.9ad59d99598cb2dab481.jpg",
+    "static/media/dwerka-logo.svg": "/online-store/static/media/dwerka-logo.0928881f3dcf388c3295692ce3dd1f82.svg",
+    "static/media/profile.svg": "/online-store/static/media/profile.d33942c437f6553f13851e54c0b0630a.svg",
+    "static/media/adresses.svg": "/online-store/static/media/adresses.1ce87f44d687d9380da40f04ad7f3d34.svg",
+    "static/media/search.svg": "/online-store/static/media/search.6a86ef682ee7e2e00c0bc91ac80f44b8.svg",
+    "static/media/basket.svg": "/online-store/static/media/basket.02b83e7fb033acc256b75ebe46f7724c.svg",
+    "index.html": "/online-store/index.html",
+    "static/media/burger-menu.svg": "/online-store/static/media/burger-menu.3f8d01a6d57f83b5d0177a98037b4043.svg",
+    "static/media/check.svg": "/online-store/static/media/check.274747dbeb0f836a3dd3.svg",
+    "main.f60f018d.css.map": "/online-store/static/css/main.f60f018d.css.map",
+    "main.97ba57f6.js.map": "/online-store/static/js/main.97ba57f6.js.map",
+    "787.a92fe09e.chunk.js.map": "/online-store/static/js/787.a92fe09e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f60f018d.css",
+    "static/js/main.97ba57f6.js"
+  ]
+}
