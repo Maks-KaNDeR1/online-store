@@ -1,0 +1,20 @@
+.historyBlock {
+    margin-top: 90px;
+
+    h2 {
+        font-size: 25px;
+
+        span {
+            cursor: pointer;
+            margin-left: 30px;
+            font-size: 18.5px;
+
+            color: rgb(97 60 197);
+        }
+    }
+
+    .items {
+        display: flex;
+        margin-top: 27px;
+    }
+}

@@ -1,0 +1,52 @@
+footer {
+    position: relative;
+    background: linear-gradient(135deg, rgb(63, 52, 180) 23%, rgb(220, 117, 189) 76%, rgb(187, 190, 37) 100%);
+
+    .angle {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -38px;
+        background: radial-gradient(circle at 100% 0, rgba(30, 42, 39, 0) 42px, #3f34b4 0);
+    }
+
+    .angleSent {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -38px;
+        right: 0;
+        background: radial-gradient(circle at 0 0, rgba(30, 42, 39, 0) 42px, #d87dac 0);
+    }
+
+    .footerContent {
+        padding: 30px 60px 30px 60px;
+        display: grid;
+
+        grid-template-columns: 322px 322px 322px 282px 122px;
+        grid-template-rows: 309px;
+
+        .items {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+
+            h3 {
+                margin: 0 0 10px 0;
+            }
+
+            span {
+                cursor: pointer;
+                color: #ffffff60;
+                margin-top: 12px;
+                font-size: 17px;
+            }
+
+            img {
+                cursor: pointer;
+                margin-bottom: 21px;
+                width: 54px;
+            }
+        }
+    }
+}

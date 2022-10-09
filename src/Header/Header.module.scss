@@ -1,0 +1,236 @@
+header {
+    .background {
+        position: absolute;
+        margin: 0;
+        filter: blur(1px);
+        background-image: url(../assets/image/header2.jpg);
+        z-index: -10;
+        height: 655px;
+        top: -320px;
+        width: 1440px;
+        background-size: 100% 100%;
+
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    .headerContent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 30px 60px 20px 60px;
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            height: 31px;
+            width: 1320px;
+            color: rgba(255, 255, 255, 0.705);
+
+            z-index: 10;
+
+            .leftSide {
+                width: 520px;
+                display: flex;
+                justify-content: space-between;
+
+                i {
+                    margin-right: 8px;
+                }
+
+                .buttonDwerka {
+                    border: none;
+                    outline: none;
+                    border-radius: 35px;
+                    font-size: 14.3px;
+                    width: 201px;
+                    height: 29px;
+                    padding: 5px 10px;
+                    color: #1C1C1C;
+                    background-color: #D0EA02;
+                    transition: 0.4s;
+
+                    &:hover {
+                        color: #fff;
+                        background-color: #131313;
+                    }
+                }
+            }
+
+            .buttonProblem {
+                cursor: pointer;
+                border: none;
+                outline: none;
+                border-radius: 35px;
+                font-size: 14.3px;
+                width: 201px;
+                height: 29px;
+                padding: 5px 10px;
+                color: #fff;
+                background-color: #BA7AE6;
+                transition: 0.4s;
+
+                i {
+                    margin-left: 10px;
+                }
+
+                &:hover {
+                    background-color: #fff;
+                    color: #BA7AE6;
+                }
+            }
+        }
+
+        .headonSearch {
+            height: 80px;
+            width: 1320px;
+            margin: 40px 60px 21px 60px;
+            display: flex;
+            color: #fff;
+
+            z-index: 10;
+            justify-content: space-between;
+
+            .leftSideSearch {
+                display: flex;
+                justify-content: space-between;
+                width: 1040px;
+
+                .burgerMenu {
+                    margin-top: 8px;
+
+                    img {
+                        cursor: pointer;
+                        // width: 57зx;
+                        height: 56px;
+                        margin: 0 20px 0 0;
+                        // border-radius: 10px;
+                    }
+                }
+
+                .IDwerka {
+                    font-size: 52px;
+                    position: relative;
+
+                    span {
+                        position: absolute;
+                        top: 56px;
+                        left: 141px;
+                        font-size: 14px;
+                        width: 200px;
+                    }
+                }
+
+                .inputSearchBlock {
+                    .inputSearch {
+                        outline: none;
+                        border: none;
+                        height: 47px;
+                        width: 656px;
+                        padding: 20px;
+                        font-size: 25px;
+                        margin: 15px 0 0 17px;
+                    }
+
+                    .dropDown {
+                        padding-left: 16px;
+                        padding-bottom: 7px;
+                        margin-left: 17px;
+                        width: 640px;
+                        border-radius: 0 0 25px 25px;
+                        background-color: #fff;
+                        box-shadow: 0px 9px 20px 0px #c8bfe2;
+
+                        z-index: -100;
+
+                        .droptitle {
+                            cursor: pointer;
+                            color: #9D9D9D;
+                            padding: 10px 0 15px 0;
+                            font-size: 17px;
+                        }
+
+                        .itemHistory {
+                            cursor: pointer;
+                            position: relative;
+                            margin-left: 30px;
+                            font-size: 19px;
+                            color: #131313;
+                            padding: 8px 0;
+
+                            img {
+                                position: absolute;
+                                top: 14px;
+                                left: -30px;
+                            }
+
+                            &:hover {
+                                background-color: #f0f0f067;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .icons {
+                display: flex;
+
+                .icon {
+                    cursor: pointer;
+                    margin: 12px 0 0 23px;
+                    position: relative;
+                    transition: 0.3s;
+
+                    i {
+                        position: absolute;
+                        font-size: 26px;
+                        top: 2px;
+                        left: 5px;
+                        transition: 0.3s;
+                    }
+
+                    &:hover {
+                        scale: 1.05;
+                    }
+
+
+
+                    .iconTitle {
+                        position: absolute;
+                        font-size: 13px;
+                        bottom: 0;
+                        left: 2px;
+                    }
+
+                    .basket {
+                        position: absolute;
+                        top: -9px;
+                        left: 76%;
+                        font-size: 13px;
+                        color: #fff;
+                        padding: 0px 6px 2px 6px;
+                        border-radius: 50%;
+                        background-color: #ed2d44;
+                    }
+                }
+
+                :nth-child(2) {
+                    i {
+                        padding: 6px 2px 6px 9px;
+                    }
+
+                    .iconTitle {
+                        left: -2px;
+                    }
+                }
+
+                :nth-child(3) {
+                    i {
+                        padding: 6px;
+                    }
+                }
+            }
+        }
+    }
+}
