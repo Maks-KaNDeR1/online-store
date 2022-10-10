@@ -65,24 +65,26 @@ export const Header: React.FC<PropsType> = () => {
             <div className={s.headerContent}>
                 <div className={s.head}>
                     <div className={s.leftSide}>
-                        <div> <i className="fa fa-map-marker" aria-hidden="true"></i>
-                            Россия </div>
+                        <div>
+                            <i className="fa fa-map-marker" aria-hidden="true"></i>
+                            Россия
+                        </div>
                         <div> Бесплатная доставка </div>
                         <button className={s.buttonDwerka}> Продавайте на Dwerka.ru </button>
                     </div>
-
                     <button className={s.buttonProblem} >
                         Сообщить о проблеме
                         <i className="fa fa-commenting" aria-hidden="true"></i>
                     </button>
-
                 </div>
                 <div className={s.headonSearch}>
                     <div className={s.leftSideSearch}>
                         <div className={s.burgerMenu}>
                             <img src={burgerMenu} alt="" />
                         </div>
-                        <img src={dwerkaLogo} alt="" />
+                        <div className={s.IDwerka}>
+                            <img src={dwerkaLogo} alt="" />
+                        </div>
                         <div ref={myRef} className={s.inputSearchBlock}  >
                             <input
                                 className={s.inputSearch}

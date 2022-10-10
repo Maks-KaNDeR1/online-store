@@ -18,3 +18,19 @@
         margin-top: 27px;
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .historyBlock {
+        margin-top: 40px;
+
+        h2 {
+            font-size: 19px;
+
+            span {
+                margin-left: 20px;
+                font-size: 14px;
+            }
+        }
+    }
+}

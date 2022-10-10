@@ -207,3 +207,10 @@ $borderGreen: #adbb42e3;
         user-select: none;
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .characteristics {
+        display: none;
+    }
+}

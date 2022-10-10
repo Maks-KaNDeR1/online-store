@@ -51,17 +51,18 @@ const Paginator: React.FC<PropsType> = (
                         }}>{p}</span>
                 })}
             {portionCount > portionNumber &&
-
                 <span className={s.nextPage}>
                     <span className={s.ellipsis} >...</span>
-                    <span onClick={onClickNextPageHandler} >
+                    {/* <div className={s.nextPageTitle}> */}
+                    <span className={s.nextPageTitle} onClick={onClickNextPageHandler} >
                         Следующая страница
                         <i className='fa fa-long-arrow-right' style={{ opacity: '0' }} ></i>
                         <i className='fa fa-long-arrow-right' ></i>
                     </span>
+                    {/* </div> */}
                 </span>
             }
-        </div>
+        </div >
     )
 }
 
