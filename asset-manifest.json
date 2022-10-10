@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-store/static/css/main.f60f018d.css",
-    "main.js": "/online-store/static/js/main.97ba57f6.js",
+    "main.css": "/online-store/static/css/main.26ccaa67.css",
+    "main.js": "/online-store/static/js/main.bfc68492.js",
     "static/js/787.a92fe09e.chunk.js": "/online-store/static/js/787.a92fe09e.chunk.js",
     "static/media/header2.jpg": "/online-store/static/media/header2.9ad59d99598cb2dab481.jpg",
     "static/media/dwerka-logo.svg": "/online-store/static/media/dwerka-logo.0928881f3dcf388c3295692ce3dd1f82.svg",
@@ -12,12 +12,12 @@
     "index.html": "/online-store/index.html",
     "static/media/burger-menu.svg": "/online-store/static/media/burger-menu.3f8d01a6d57f83b5d0177a98037b4043.svg",
     "static/media/check.svg": "/online-store/static/media/check.274747dbeb0f836a3dd3.svg",
-    "main.f60f018d.css.map": "/online-store/static/css/main.f60f018d.css.map",
-    "main.97ba57f6.js.map": "/online-store/static/js/main.97ba57f6.js.map",
+    "main.26ccaa67.css.map": "/online-store/static/css/main.26ccaa67.css.map",
+    "main.bfc68492.js.map": "/online-store/static/js/main.bfc68492.js.map",
     "787.a92fe09e.chunk.js.map": "/online-store/static/js/787.a92fe09e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f60f018d.css",
-    "static/js/main.97ba57f6.js"
+    "static/css/main.26ccaa67.css",
+    "static/js/main.bfc68492.js"
   ]
 }
